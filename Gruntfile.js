@@ -188,4 +188,4 @@ module.exports = function(grunt) {
         'clean:nonMinifiedFiles',
         'includereplace:dist'
     ]);
-}
+};
