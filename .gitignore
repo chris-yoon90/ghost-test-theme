@@ -1,0 +1,12 @@
+*.log
+*.map
+.DS_Store
+node_modules
+bower_components
+
+**/.sass-cache
+**/.sass-cache/*
+
+#ignore files that are built by grunt task
+/*.hbs
+/assets

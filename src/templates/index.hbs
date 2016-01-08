@@ -1,0 +1,12 @@
+{{!< default}}
+
+<h1>This is template for index page.</h1>
+<p>Please refer to http://themes.ghost.org/docs/index-context</p>
+
+{{#if posts}}
+<ul>
+    {{#foreach posts}}
+    <li><a href="{{url}}">{{title}}</a></li>
+    {{/foreach}}
+</ul>
+{{/if}}

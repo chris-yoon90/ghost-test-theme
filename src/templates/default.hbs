@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{meta_title}}</title>
+    
+    @@include('head.hbs')
+    
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body>
+ 
+    {{{body}}}
+
+    @@include('scripts.hbs')
+    
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+</body>
+</html>
